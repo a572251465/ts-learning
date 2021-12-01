@@ -1,5 +1,5 @@
 type Fn = (a: number, b: string) => number
-type AppendArgument<F, A> = F extends (...args: infer C) => infer B ? (
+type AppendArgument<F extends (...args: any) => any, A> = F extends (...args: infer C) => infer B ? (
   (x: A, ...args: C) => B
 ) : never
 
