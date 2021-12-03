@@ -9,5 +9,6 @@ type E3 = IsEqual<true, false>
 type E4 = IsEqual<1 | 2, 2 | 1>
 type E5 = IsEqual<any, 1>
 type E6 = IsEqual<never, 1>
+type E7 = IsEqual<1, number>
 
 export default IsEqual
