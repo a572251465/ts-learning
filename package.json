@@ -1,0 +1,11 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/a572251465/ts-learning.git",
+  "author": "lihaohao <2495041749@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.4.0"
+  }
+}
